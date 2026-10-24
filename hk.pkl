@@ -7,6 +7,7 @@ import "package://github.com/jdx/hk/releases/download/v2.8.1/hk@2.8.1#/Builtins.
 // их гоняют check, pre-push и CI.
 local fast = new Mapping<String, Step> {
   ["typos"] = Builtins.typos
+  ["jactionlint"] = Builtins.jactionlint
 }
 
 local all = (fast) {

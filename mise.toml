@@ -1,6 +1,7 @@
 [tools]
 betterleaks = "latest"
 hk = "2"
+jactionlint = "latest"
 node = "26"
 "npm:@commitlint/cli" = "latest"
 "npm:@commitlint/config-conventional" = "latest"
